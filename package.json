@@ -1,0 +1,21 @@
+{
+  "name": "staking-api-examples",
+  "version": "1.0.0",
+  "description": "Example TypeScript project for staking API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@pier_two/staking-ts": "^1.1.22",
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
